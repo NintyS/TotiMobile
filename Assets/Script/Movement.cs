@@ -30,7 +30,7 @@ public class Movement : MonoBehaviour
 
         if(Vector3.Distance(pos, goTo) < 1)
         {
-            anim.SetBool("walking", true);
+            anim.SetBool("walking", false);
             return;
         }
 
